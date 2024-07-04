@@ -1,0 +1,163 @@
+
+*{
+  text-decoration:none;
+  margin: 0px;
+  padding: 0px;
+}
+ 
+.wrapper {
+  width: 1150px;
+  margin: auto;
+  position: relative;
+  display:block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color:rgba(189, 188, 188, 0.971);
+  background-color: #cccccc;
+  border-bottom: 1px solid var#513c28;
+  padding-top: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999
+}
+  
+
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-style: italic, bold;
+  color:rgba(14, 18, 20, 0.938);
+  border-radius: 100px;
+
+}
+.menu {
+    float: right;
+  }
+
+ nav  {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; 
+
+    }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+ nav ul li {
+    float: left;
+  }
+ nav ul li a { 
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    background-color:transparent;
+    font-style: inherit;
+  }
+.filter {
+  background-image: url('2c812c3e093893173f98bf5812d9815e.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+  font-family: "open sans" , sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.filter p {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-size: 40px;   
+  }
+
+.filter ul li {
+    display: inline-block;
+    margin-right: 15px;
+    text-size-adjust: 50px;
+}
+
+.filter ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition:  background-color 0.3s;
+}
+
+.filter ul li a:hover {
+  background-color: #e0e0e0;
+}
+.filter ul h1, h2, h3, h4,h5, h6 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 40px;   
+
+}
+.hubungi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;  
+  padding-top: 100px;
+}
+.hubungi p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 10px; /* Mengatur jarak antara ikon */
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #2cbe4c;
+  color: white;
+}
+.fa-youtube {
+  background: #e31d1d;
+  color: white;
+}
